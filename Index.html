@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Mel Modas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="javascript/script.js"></script>
+    <!-- Adiciona o ícone da página -->
+    <link rel="icon" href="img/mel.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Mel Modas</h1>
+    </header>
+	<nav>
+		<a href="#">Início</a>
+		<a href="contato.html">Contato</a>
+		<a href="#sobre">Sobre</a> <!-- Atualizado -->
+	</nav>
+    <div class="banner">
+        Bem-vindo à Mel Modas!
+    </div>
+    <div class="container clearfix">
+        <div class="product" data-product-name="Vestido Floral" data-product-price="199.90" data-product-img="img/florido.jpg">
+            <img src="img/florido.jpg" alt="Produto 1">
+            <h2>Vestido Floral</h2>
+            <p>R$ 199,90</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-product-name="Blusa de Seda" data-product-price="149.90" data-product-img="img/seda.jpg">
+            <img src="img/seda.jpg" alt="Produto 2">
+            <h2>Blusa de Seda</h2>
+            <p>R$ 149,90</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-product-name="Calça Jeans" data-product-price="99.90" data-product-img="img/jeans.png">
+            <img src="img/jeans.png" alt="Produto 3">
+            <h2>Calça Jeans</h2>
+            <p>R$ 99,90</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-product-name="Saia Longa" data-product-price="129.90" data-product-img="img/longa.jpeg">
+            <img src="img/longa.jpeg" alt="Produto 4">
+            <h2>Saia Longa</h2>
+            <p>R$ 129,90</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-product-name="Camisa Social" data-product-price="179.90" data-product-img="img/social.png">
+            <img src="img/social.png" alt="Produto 5">
+            <h2>Camisa Social</h2>
+            <p>R$ 179,90</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-product-name="Bolsa de Couro" data-product-price="299.90" data-product-img="img/bolsa.png">
+            <img src="img/bolsa.png" alt="Produto 6">
+            <h2>Bolsa de Couro</h2>
+            <p>R$ 299,90</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+    <div class="cart">
+        <img src="img/carrinho.png" alt="Carrinho">
+        <span id="cart-count">(0)</span>
+        <button id="view-cart">Ver Carrinho</button>
+    </div>
+    <div id="cart-panel" class="cart-panel">
+        <button class="close-cart">&times;</button>
+        <h2>Seu Carrinho</h2>
+        <div id="cart-items"></div>
+        <p id="empty-cart-message">Seu carrinho está vazio.</p>
+        <button id="pay-with-pix" style="display: none;">Pagar com PIX</button> <!-- Botão Pagar com PIX -->
+    </div>
+    <div class="company-info">
+        <h2 style="text-align: center; font-size: 1.5em; color: #6c757d;">Qualidade e História</h2>
+        <p class="company-description">Na Mel Modas, prezamos pela qualidade de nossos produtos, oferecendo roupas e acessórios de alta qualidade e durabilidade. Nossa missão é proporcionar aos nossos clientes uma experiência de compra única, com produtos que combinam estilo e conforto.</p>
+        <p class="company-history">Fundada em 2024, a Mel Modas tem se dedicado a oferecer as últimas tendências da moda, mantendo sempre um alto padrão de atendimento e satisfação do cliente. Nossa história é marcada pelo compromisso com a qualidade e a inovação, sempre buscando superar as expectativas dos nossos clientes.</p>
+    </div>
+	<footer id="sobre">
+		<p>&copy; 2024 Mel Modas. Todos os direitos reservados.</p>
+	</footer>
+
+</body>
+</html>

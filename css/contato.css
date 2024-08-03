@@ -1,0 +1,102 @@
+/* contato.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o botão "Início" */
+.inicio-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px; /* Espaçamento para não ficar muito colado ao topo */
+    left: 15px; /* Espaçamento para não ficar muito colado à borda esquerda */
+    display: inline-block;
+}
+
+.inicio-button:hover {
+    background-color: #ff8a80;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: relative; /* Para permitir o posicionamento absoluto do botão */
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #ff8a80;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+    color: #ff6f61;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-container p {
+    color: #666;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+button[type="submit"] {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff8a80;
+}
+
+footer {
+    background-color: #ff8a80;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
